@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashal Studios | Meta Ads Expert & High-Conversion Web Design</title>
+    
+    <!-- Primary SEO Meta Tags -->
+    <meta name="title" content="Mashal Studios | Meta Ads Expert & High-Conversion Web Design">
+    <meta name="description" content="Official Portfolio of Mashal Studios. Specialized in scaling brands through Meta Ads and custom-built, high-converting Shopify and WordPress websites.">
+    <meta name="keywords" content="Meta Ads Expert, Facebook Ads Specialist, Shopify Developer, WordPress Design, Digital Marketing, Conversion Rate Optimization, Mashal Studios, MashalStudios.github.io">
+    <meta name="author" content="Mashal Studios">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mashalstudios.github.io/">
+    <meta property="og:title" content="Mashal Studios | Meta Ads Expert">
+    <meta property="og:description" content="Scaling brands through performance marketing and high-converting web design. View my case studies.">
+    <meta property="og:image" content="https://i.postimg.cc/hjV00Q02/my-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mashalstudios.github.io/">
+    <meta property="twitter:title" content="Mashal Studios | Meta Ads Expert">
+    <meta property="twitter:description" content="Scaling brands through performance marketing and high-converting web design.">
+    <meta property="twitter:image" content="https://i.postimg.cc/hjV00Q02/my-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/hjV00Q02/my-image.png">
+
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Babel for Browser-side TSX compilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        :root { --brand-primary: #4f46e5; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fafafa; -webkit-font-smoothing: antialiased; }
+        .glass-panel { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }
+        .blob-bg { filter: blur(80px); z-index: -1; pointer-events: none; }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-12px); } 100% { transform: translateY(0px); } }
+        .animate-float { animation: float 5s ease-in-out infinite; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f4f4f5; }
+        ::-webkit-scrollbar-thumb { background: #4f46e5; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        body.modal-open { overflow: hidden; padding-right: 8px; }
+        
+        /* Ensure smooth animations on all devices */
+        * { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+    </style>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-zinc-900 antialiased">
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
